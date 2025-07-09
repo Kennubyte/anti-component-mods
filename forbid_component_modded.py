@@ -5,7 +5,8 @@ import threading
 
 app = Flask(__name__)
 
-working_folder = r"C:\Users\jackd\AppData\Roaming\Stormworks\working_server\vehicles"
+working_folder = r"" # put your working_server/vehicles dir here
+# mine was C:\Users\%user%\AppData\Roaming\Stormworks\working_server\vehicles
 
 component_mods = {}
 
